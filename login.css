@@ -1,0 +1,62 @@
+
+
+<html>
+<head>
+<center><h1>Login Page </h1></center>
+</head>
+<script>
+
+function validate() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username == null || username == "") {
+            alert("Please enter the username.");
+            return false;
+        }
+        if (password == null || password == "") {
+            alert("Please enter the password.");
+            return false;
+        }
+        alert('Login successful');
+		
+{ var winob=window.open(mainpage.html);
+
+}
+
+
+    } 
+	
+</script>
+<body >
+<form>
+<fieldset style="
+  background-repeat:no-repeat; 
+font-size:15pt;
+font-family:comic sans ms; ">
+<center>
+<table class="center" name="Menu">
+<link rel="stylesheet" href="style.css">
+<tr>
+  <td>Name</td>
+  <td><input type="text" name="username" id="username" required /></td>
+  </tr>
+  <tr>
+  <td>Password</td>
+<td>  <input type="password" name="password" id="password" /> </td></br> </br>
+</tr>
+<tr>
+<td>
+  <input type="button" value="Login" id="submit" onclick="validate();" />
+  </td>
+  
+  
+    <td><input type="button" value="Exit" id="submit" onclick="window.close();" /></td>
+	</tr>
+
+  </table>
+  </center>
+</form>
+</fieldset>
+</body>
+ 
+  </html>
